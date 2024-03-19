@@ -306,12 +306,13 @@ footer > div{
 
 footer#contact a {
     transition: transform 0.3s ease;
+    margin-left: 10px; 
 }
 
 footer#contact a:hover {
-    transform: scale(1.2); 
+    transform: scale(1.0);
+    margin-left: 20px;  
 }
-
 
 .project-image a {
     position: relative;
@@ -335,16 +336,16 @@ footer#contact a:hover {
 }
 
 .box-img-header img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid aqua;
+    width: 150px; /* Defina a largura desejada para a sua imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Adiciona um arredondamento às bordas da imagem */
+    border: 2px solid aqua; /* Adiciona uma borda sólida de cor aqua */
     cursor: pointer;
-    transition: transform 0.3s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; /* Adiciona uma transição suave de 0.3 segundos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
 }
 .box-img-header img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho da imagem quando o mouse está sobre ela */
 }
 
 .third-section {
@@ -451,8 +452,8 @@ footer#contact a:hover {
 }
 
 .depoimentos img:hover {
-    transform: scale(1.1); 
-    transition: transform 0.3s ease;
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
 }
 
 .depoimentos p {
