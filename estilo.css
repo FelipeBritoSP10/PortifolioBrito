@@ -171,6 +171,11 @@ h2{
     padding: 1rem;
 }
 
+.box-img-main:hover .img-profile {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
 .img-profile{
     width: 100%;
     border-radius: 50%;
@@ -299,6 +304,15 @@ footer > div{
     flex-wrap: wrap;
 }
 
+footer#contact a {
+    transition: transform 0.3s ease;
+}
+
+footer#contact a:hover {
+    transform: scale(1.2); 
+}
+
+
 .project-image a {
     position: relative;
     display: inline-block;
@@ -321,12 +335,12 @@ footer > div{
 }
 
 .box-img-header img {
-    width: 150px; 
+    width: 150px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid aqua; 
+    border: 2px solid aqua;
     cursor: pointer;
-    transition: transform 0.3s; 
+    transition: transform 0.3s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 .box-img-header img:hover {
@@ -416,4 +430,38 @@ footer > div{
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+}
+
+#depoimentos {
+    background-color: #34344e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.depoimentos {
+    margin-bottom: 30px;
+}
+
+.depoimentos img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.depoimentos img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.depoimentos p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.depoimentos p:last-child {
+    margin-top: 10px;
+    font-style: italic;
 }
