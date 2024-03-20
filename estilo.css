@@ -475,6 +475,14 @@ footer#contact a:hover {
     margin: 10px; 
 }
 
+.project {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
 .project img {
     display: block; 
     max-width: 100%; 
@@ -499,7 +507,6 @@ footer#contact a:hover {
     pointer-events: none; 
     transition: opacity 0.3s;
 }
-
 
 .project {
     position: relative;
