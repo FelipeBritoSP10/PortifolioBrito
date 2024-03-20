@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 :root{
@@ -336,16 +337,17 @@ footer#contact a:hover {
 }
 
 .box-img-header img {
-    width: 150px; /* Defina a largura desejada para a sua imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 50%; /* Adiciona um arredondamento às bordas da imagem */
-    border: 2px solid aqua; /* Adiciona uma borda sólida de cor aqua */
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 2px solid aqua; 
     cursor: pointer;
-    transition: transform 0.3s; /* Adiciona uma transição suave de 0.3 segundos */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    transition: transform 0.3s; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
+
 .box-img-header img:hover {
-    transform: scale(1.1); /* Aumenta ligeiramente o tamanho da imagem quando o mouse está sobre ela */
+    transform: scale(1.1); 
 }
 
 .third-section {
@@ -452,8 +454,8 @@ footer#contact a:hover {
 }
 
 .depoimentos img:hover {
-    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
 
 .depoimentos p {
@@ -465,4 +467,75 @@ footer#contact a:hover {
 .depoimentos p:last-child {
     margin-top: 10px;
     font-style: italic;
+}
+
+.project {
+    position: relative; 
+    display: inline-block; 
+    margin: 10px; 
+}
+
+.project img {
+    display: block; 
+    max-width: 100%; 
+    cursor: pointer;
+}
+
+.project {
+    position: relative;
+    display: inline-block;
+}
+
+.project .project-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+
+
+.project {
+    position: relative;
+    display: inline-block;
+}
+
+.project .project-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+
+.project:hover .project-description {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none; 
+    outline: none; 
+}
+
+.project-description .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
