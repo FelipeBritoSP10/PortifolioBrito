@@ -158,6 +158,10 @@ h2{
     text-align: center;
 }
 
+.title {
+    font-size: 1.5rem; 
+}
+
 
 .first-section p{
     color: var(--white);
@@ -464,6 +468,15 @@ footer#contact a:hover {
     color: white;
 }
 
+.user-img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.user-img:hover {
+    transform: scale(1.1);
+}
+
 .depoimentos p:last-child {
     margin-top: 10px;
     font-style: italic;
@@ -473,14 +486,6 @@ footer#contact a:hover {
     position: relative; 
     display: inline-block; 
     margin: 10px; 
-}
-
-.project {
-    transition: transform 0.3s ease-in-out;
-}
-
-.project:hover {
-    transform: translateY(-5px);
 }
 
 .project img {
@@ -507,6 +512,7 @@ footer#contact a:hover {
     pointer-events: none; 
     transition: opacity 0.3s;
 }
+
 
 .project {
     position: relative;
@@ -545,4 +551,11 @@ a {
     border-radius: 5px;
     transition: background-color 0.3s;
     cursor: pointer;
+}
+.project {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
 }
