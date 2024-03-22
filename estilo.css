@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 :root{
@@ -566,6 +565,21 @@ a {
   }
 
 .third-section .max-w-lg:hover {
-    transform: translateY(-5px); /* Move o card para cima */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
+
+.second-section {
+    text-align: center;
+  }
+
+.second-section p {
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+    
+}
+
+.second-section p:hover {
+    transform: translateX(10px);
+    cursor: pointer;
+ }
