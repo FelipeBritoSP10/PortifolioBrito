@@ -559,3 +559,13 @@ a {
 .project:hover {
     transform: translateY(-5px);
 }
+
+.third-section:hover .border-white {
+    border-color: #4a90e2; 
+    cursor: pointer;
+  }
+
+.third-section .max-w-lg:hover {
+    transform: translateY(-5px); /* Move o card para cima */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+}
