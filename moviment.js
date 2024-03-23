@@ -27,7 +27,7 @@ $(document).ready(function(){
  document.addEventListener("DOMContentLoaded", function() {
             ScrollReveal().reveal('.sr', {
                 delay: 200,    
-                duration: 2000, 
+                duration: 1000, 
                 origin: 'bottom', 
                 distance: '20px',
                 easing: 'ease-in-out',
