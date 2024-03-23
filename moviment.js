@@ -24,11 +24,13 @@ $(document).ready(function(){
 });
 
 //Biblioteca ScrollReveal
-ScrollReveal().reveal('*', {
-    delay: 200,    
-    duration: 900, 
-    origin: 'bottom', 
-    distance: '20px',
-    easing: 'ease-in-out',
-    interval: 90
-});
+ document.addEventListener("DOMContentLoaded", function() {
+            ScrollReveal().reveal('.sr', {
+                delay: 200,    
+                duration: 2000, 
+                origin: 'bottom', 
+                distance: '20px',
+                easing: 'ease-in-out',
+                interval: 100 
+            });
+        });
