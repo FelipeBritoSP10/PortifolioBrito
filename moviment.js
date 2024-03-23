@@ -26,9 +26,9 @@ $(document).ready(function(){
 //Biblioteca ScrollReveal
 ScrollReveal().reveal('*', {
     delay: 200,    
-    duration: 1000, 
+    duration: 900, 
     origin: 'bottom', 
     distance: '20px',
     easing: 'ease-in-out',
-    interval: 100
+    interval: 90
 });
