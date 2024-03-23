@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 :root{
@@ -570,13 +571,14 @@ a {
 }
 
 .depoimento img {
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 300px;
     margin-bottom: 20px;
     display: block; 
     cursor: pointer;
     border-radius: 50%;
-}
+} 
+
 
 .depoimento img:hover {
     transform: scale(1.1); 
