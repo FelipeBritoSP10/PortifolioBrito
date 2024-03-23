@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 :root{
@@ -442,55 +443,6 @@ footer#contact a:hover {
     font-weight: bold;
 }
 
-#depoimentos {
-    background-color: #34344e;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.depoimentos {
-    margin-bottom: 30px;
-}
-
-.depoimentos img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.depoimentos img:hover {
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-}
-
-.depoimentos p {
-    font-size: 1.7rem;
-    line-height: 1.6;
-    color: white;
-    margin-bottom: 1.5rem;
-}
-
-#depoimentos p b {
-    font-weight: bold; /* Define o peso da fonte em negrito */
-}
-
-.user-img {
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.user-img:hover {
-    transform: scale(1.1);
-}
-
-.depoimentos p:last-child {
-    margin-top: 10px;
-    font-style: italic;
-    font-size: 22px;
-}
-
 .project {
     position: relative; 
     display: inline-block; 
@@ -593,3 +545,54 @@ a {
     transform: translateX(10px);
     cursor: pointer;
  }
+
+
+   
+#depoimentos {
+    background-color: #34344e; 
+    padding: 50px 0;
+    }
+
+.depoimentos-carousel {
+    margin-top: 20px;
+}
+
+.depoimentos-carousel .owl-item {
+    padding: 0 10px;
+}
+
+.depoimento {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.depoimento img {
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    display: block; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.depoimento img:hover {
+    transform: scale(1.1); 
+}
+
+
+.depoimento p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.depoimento .nome-usuario {
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 20px;
+    margin-top: 15px;
+}
