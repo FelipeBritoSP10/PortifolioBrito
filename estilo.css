@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 :root{
@@ -595,4 +594,50 @@ a {
     font-family: georgia;
     font-size: 20px;
     margin-top: 15px;
+}
+
+.services {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service_title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #cbdad5;
+}
+
+.servs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service_content {
+    padding: 20px;
+}
+
+.service i {
+    font-size: 40px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    margin-top: 10px;
 }
