@@ -30,5 +30,5 @@ ScrollReveal().reveal('*', {
     origin: 'bottom', 
     distance: '20px',
     easing: 'ease-in-out',
-    interval: 90
+    interval: 100
 });
