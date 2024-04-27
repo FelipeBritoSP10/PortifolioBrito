@@ -656,3 +656,38 @@ a {
     font-size: 16px;
     margin-top: 10px;
 }
+
+
+.aulas {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.aulas_title h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aula {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+.aula_content {
+  text-align: center;
+}
+
+.aula_content i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.aula_content p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
