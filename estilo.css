@@ -521,6 +521,19 @@ a {
     transform: translateY(-5px);
 }
 
+ .swiper-container {
+      width: 100%;
+      height: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 .third-section:hover .border-white {
     border-color: #4a90e2; 
     cursor: pointer;
