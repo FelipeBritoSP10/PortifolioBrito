@@ -162,7 +162,7 @@ h2{
 }
 
 .title {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
 
 
@@ -180,8 +180,8 @@ h2{
 }
 
 .box-img-main:hover .img-profile {
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .img-profile{
@@ -214,7 +214,7 @@ h2{
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 20px;
-   
+
 }
 
 .second-section p:hover{
@@ -315,12 +315,12 @@ footer > div{
 
 footer#contact a {
     transition: transform 0.3s ease;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 footer#contact a:hover {
     transform: scale(1.0);
-    margin-left: 20px;  
+    margin-left: 20px;
 }
 
 .project-image a {
@@ -345,17 +345,17 @@ footer#contact a:hover {
 }
 
 .box-img-header img {
-    width: 150px; 
-    height: auto; 
-    border-radius: 50%; 
-    border: 2px solid aqua; 
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid aqua;
     cursor: pointer;
-    transition: transform 0.3s; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .box-img-header img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .third-section {
@@ -444,14 +444,14 @@ footer#contact a:hover {
 }
 
 .project {
-    position: relative; 
-    display: inline-block; 
-    margin: 10px; 
+    position: relative;
+    display: inline-block;
+    margin: 10px;
 }
 
 .project img {
-    display: block; 
-    max-width: 100%; 
+    display: block;
+    max-width: 100%;
     cursor: pointer;
 }
 
@@ -470,7 +470,7 @@ footer#contact a:hover {
     padding: 10px;
     text-align: center;
     opacity: 0;
-    pointer-events: none; 
+    pointer-events: none;
     transition: opacity 0.3s;
 }
 
@@ -490,7 +490,7 @@ footer#contact a:hover {
     padding: 10px;
     text-align: center;
     opacity: 0;
-    pointer-events: none; 
+    pointer-events: none;
     transition: opacity 0.3s;
 }
 
@@ -499,8 +499,8 @@ footer#contact a:hover {
 }
 
 a {
-    text-decoration: none; 
-    outline: none; 
+    text-decoration: none;
+    outline: none;
 }
 
 .project-description .btn {
@@ -535,13 +535,13 @@ a {
     }
 
 .third-section:hover .border-white {
-    border-color: #4a90e2; 
+    border-color: #4a90e2;
     cursor: pointer;
   }
 
 .third-section .max-w-lg:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .second-section {
@@ -551,7 +551,7 @@ a {
 .second-section p {
     margin: 10px 0;
     transition: transform 0.3s ease;
-    
+
 }
 
 .second-section p:hover {
@@ -560,9 +560,9 @@ a {
  }
 
 
-   
+
 #depoimentos {
-    background-color: #34344e; 
+    background-color: #34344e;
     padding: 50px 0;
     }
 
@@ -577,24 +577,26 @@ a {
 .depoimento {
     background-color: white;
     border-radius: 10px;
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
 }
 
 .depoimento img {
-    width: 200px;
-    height: 300px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     margin-bottom: 20px;
-    display: block; 
+    display: block;
     cursor: pointer;
     border-radius: 50%;
-} 
+}
 
 
 .depoimento img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 
@@ -687,9 +689,9 @@ a {
             font-size: 18px;
         }
         .bootstrap-icon {
-        color: #7952b3; 
+        color: #7952b3;
         }
 
         .react-icon {
         color: #61dbfb;
-        }    
+        }
